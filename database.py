@@ -27,3 +27,8 @@ class Trip(Base):
 
     id = Column(Integer, primary_key=True)
     trip_name = Column(String, nullable=False)
+
+
+
+def initialize_database():
+    Base.metadata.create_all(engine)
