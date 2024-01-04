@@ -30,7 +30,7 @@ Ensure data integrity and easy retrieval for future analysis and reporting.
 
 ## Installation
 
-   1. Clone the repo: git clone https://github.com/alexander784/CLI <br>
+   1. Clone the repo: git clone https://github.com/alexander784/Hikers-CLI/tree/main<br>
    2. Navigate to the project directory cd CLI <br>
     3. Install dependecies:<br> Pip install <br>
     4. pipenv shell - Navigate into the virtiual environmet
