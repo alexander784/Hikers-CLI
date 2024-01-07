@@ -2,6 +2,7 @@ from create_hiker import create_hiker
 from create_equipment import create_equipment
 from plan_trip import plan_trip
 from database import initialize_database
+from Create_account import create_account
 
 def main():
     initialize_database()
@@ -32,7 +33,15 @@ def main():
             hikers = [int(id) for id in input("Enter hiker IDs (comma-separated): ").split(',')]
             plan_trip(trip_name, hikers)
 
+            # Add Create Account
         elif choice == '4':
+            username = input("Enter username: ")
+            password = input("Enter password: ")
+            create_account(username, password)
+            print("Account created successfully.")
+            
+
+        elif choice == '5':
             print("Exiting Hikers Management System.")
             break
 
