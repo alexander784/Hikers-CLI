@@ -12,7 +12,8 @@ def main():
         print("1. Create Hiker Profile")
         print("2. Create Equipment Entry")
         print("3. Plan Trip")
-        print("4. Exit")
+        print("4. Create Account")
+        print("5. Exit")
 
         choice = input("Enter your choice (1-4): ")
 
